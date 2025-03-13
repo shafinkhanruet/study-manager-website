@@ -21,13 +21,13 @@ for (const envVar of requiredEnvVars) {
 }
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY!,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN!,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID!,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET!,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID!,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID!,
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyAM8hiXDQc4c_mFnK7eXG4TN8cTm74Dedg",
+  authDomain: "studymanagerwebsite.firebaseapp.com",
+  projectId: "studymanagerwebsite",
+  storageBucket: "studymanagerwebsite.firebasestorage.app",
+  messagingSenderId: "652976336451",
+  appId: "1:652976336451:web:1f96fc4cffe3e63f4deef6",
+  measurementId: "G-WL2XKFQ5CQ"
 };
 
 // Initialize Firebase
